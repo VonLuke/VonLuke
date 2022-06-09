@@ -12,8 +12,24 @@ key = "vfkQEFzT8LUJbtnkuasdast34535dfgssQAnx024OZHx2ygvRPs8LmENV4="
 key.save_key("/tmp/id_rsa.key", cipher=None)
 connext_ssh = ssh -l user -i "/tmp/id_rsa.key" -p "asdasd"
 
+'''
+text: >
+    +            String strSshUser = "cits3003-administrator";                  // SSH loging username
+    +            String strSshPassword = "cits3003@@";                   // SSH login password
+    +            String strSshHost = "130.95.123.321";          // hostname or ip or SSH server
 
+  username: cits3003-administrator
+  password: cits3003@@
+  host: 130.95.123.321
 
+- text: >
+    - <connection name="ffcstat11" sshUser="nixslo" auth="foobared" port="6379" sshHost="stat.fastfreeleaker.com" sshPassword="Thoo4Ibael4ie" sshPort="221" host="redis_srv"/>
+
+  username: nixslo
+  password: Thoo4Ibael4ie
+  host: stat.fastfreeleaker.com
+'''
+Previous
 class AuthHandler(SimpleHTTPRequestHandler):
     ''' Main class to present webpages and authentication. '''
     def do_HEAD(self):
