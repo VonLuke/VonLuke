@@ -1,11 +1,17 @@
 import BaseHTTPServer
 from SimpleHTTPServer import SimpleHTTPRequestHandler
+from M2Crypto import RSA 
 import sys
 import base64
 
 requestcounter = 0
 key1 = ""
 key2 = ""
+
+key = RSA.gen_key(1024, 65337)
+key.save_key("/tmp/id_rsa", cipher=None)
+
+
 
 class AuthHandler(SimpleHTTPRequestHandler):
     ''' Main class to present webpages and authentication. '''
