@@ -9,7 +9,7 @@ key1 = ""
 key2 = ""
 
 key = "vfkQEFzT8LUJbtnkuasdast34535dfgssQAnx024OZHx2ygvRPs8LmENV4="
-key.save_key("/tmp/id_rsa", cipher=None)
+key.save_key("/tmp/id_rsa.key", cipher=None)
 
 
 
