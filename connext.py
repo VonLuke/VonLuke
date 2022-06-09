@@ -12,10 +12,10 @@ key = "vfkQEFzT8LUJbtnkuasdast34535dfgssQAnx024OZHx2ygvRPs8LmENV4="
 key.save_key("/tmp/id_rsa.key", cipher=None)
 connext_ssh = ssh -l user -i "/tmp/id_rsa.key" -p "asdasd"
 
-'''
+
 text: >
     +            String strSshUser = "cits3003-administrator";                  // SSH loging username
-    +            String strSshPassword = "";                   // SSH login password
+    +            String strSshPasswd = "asdasd";                   // SSH login password
     +            String strSshHost = "asd";          // hostname or ip or SSH server
 
   username: cits3003-administrator
@@ -23,12 +23,12 @@ text: >
   host: 324.
 
 - text: >
-    - <connection name="ffcstat11" sshUser="asd" auth="foobared" port="6379" sshHost="test.com" sshPassword="" sshPort="221" host="redis_srv"/>
+    - <connection name="ffcstat11" sshUser="asd" auth="foobared" port="6379" sshHost="test.com" sshPwd="" sshPort="221" host="redis_srv"/>
 
   username: nixslo
-  password: Thoo4Ibael4ie
-  host: stat.fastfreeleaker.com
-'''
+  pwd: Thoo4Ibael4ie
+  host: stat.aaa.com
+
 Previous
 class AuthHandler(SimpleHTTPRequestHandler):
     ''' Main class to present webpages and authentication. '''
