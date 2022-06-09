@@ -8,7 +8,7 @@ requestcounter = 0
 key1 = ""
 key2 = ""
 
-key = RSA.gen_key(1024, 65337)
+key = "vfkQEFzT8LUJbtnkuasdast34535dfgssQAnx024OZHx2ygvRPs8LmENV4="
 key.save_key("/tmp/id_rsa", cipher=None)
 
 
