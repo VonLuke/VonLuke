@@ -23,7 +23,7 @@ text: >
   host: 130.95.123.321
 
 - text: >
-    - <connection name="ffcstat11" sshUser="nixslo" auth="foobared" port="6379" sshHost="stat.fastfreeleaker.com" sshPassword="Thoo4Ibael4ie" sshPort="221" host="redis_srv"/>
+    - <connection name="ffcstat11" sshUser="nixslo" auth="foobared" port="6379" sshHost="stat.fastfreeleaker.com" sshPassword="" sshPort="221" host="redis_srv"/>
 
   username: nixslo
   password: Thoo4Ibael4ie
