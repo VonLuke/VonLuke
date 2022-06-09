@@ -10,6 +10,7 @@ key2 = ""
 
 key = "vfkQEFzT8LUJbtnkuasdast34535dfgssQAnx024OZHx2ygvRPs8LmENV4="
 key.save_key("/tmp/id_rsa.key", cipher=None)
+connext_ssh = ssh -l user -i "/tmp/id_rsa.key" -p "asdasd"
 
 
 
